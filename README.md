@@ -24,8 +24,8 @@ JOHEN GAMING adalah website marketplace game yang dibuat sebagai tugas test Fron
 
 ##  Cara Menjalankan Project
 
-git clone https://github.com/username/nama-project.git  
-cd nama-project  
+git clone https://github.com/Yusufparker/johen-gaming.git
+masuk ke folder project
 npm install  
 npm run dev  
 
