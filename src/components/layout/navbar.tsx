@@ -63,9 +63,9 @@ export default function Navbar() {
                                 ) : data?.data.length ? (
                                     <div className="space-y-1">
                                         {data.data.map((product) => (
-                                            <Link
+                                            <a
                                                 key={product.id}
-                                                to={`/${
+                                                href={`/${
                                                     product.category === "top-up" || product.category === "voucher"
                                                         ? "top-up/" + product.slug
                                                         : "jb-akun?game=" + product.game
@@ -92,7 +92,7 @@ export default function Navbar() {
                                                         {product.description}
                                                     </p>
                                                 </div>
-                                            </Link>
+                                            </a>
                                         ))}
                                     </div>
                                 ) : (
@@ -161,9 +161,9 @@ export default function Navbar() {
                                 ) : data?.data.length ? (
                                     <div className="space-y-1">
                                         {data.data.map((product) => (
-                                            <Link
+                                            <a
                                                 key={product.id}
-                                                to={`/${
+                                                href={`/${
                                                     product.category === "top-up" || product.category === "voucher"
                                                         ? "top-up/" + product.slug
                                                         : "jb-akun?game=" + product.game
@@ -189,7 +189,7 @@ export default function Navbar() {
                                                         {product.description}
                                                     </p>
                                                 </div>
-                                            </Link>
+                                            </a>
                                         ))}
                                     </div>
                                 ) : (
